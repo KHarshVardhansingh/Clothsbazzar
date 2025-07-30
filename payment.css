@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+.zx{
+    display: flex;
+    justify-content: center;
+    border: rgb(199, 200, 200);
+    background-color: rgb(199, 200, 200);
+    padding: 15px 24px 14px 15px;
+    margin: 14px 10px;
+    text-align: left;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+.container{
+    padding: 15px;
+    margin: 7px;
+    width: 100%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 20px;
+    font-size: 15px;
+    padding: 15px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="email"],
+select,
+textarea{
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    border-color: azure;
+}
+
+input[type="radio"]{
+    padding: 7px;
+}
+
+.container2{
+    display: flex;
+    padding: 10px;
+    margin: 30px;
+    float: right;
+    width: 100%;
+}
+
+input[type="submit"]{
+    background-color: blue;
+    color: azure;
+    padding: 10px 15px;
+    margin: 7px;
+}
